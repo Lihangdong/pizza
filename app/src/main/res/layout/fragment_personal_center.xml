@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:background="#1A1A1A"
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/menu_item1"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/menu_selected">
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/icon_login_user_sel"/>
+                    <TextView
+                        android:id="@+id/pMenu_txt1"
+                        android:textColor="@color/personal_menu_text_color"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/img1"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="个人信息"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1px"
+                    android:background="#434343"/>
+                <RelativeLayout
+                    android:id="@+id/menu_item2"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/personalcenter_icon_userlike_nor"/>
+                    <TextView
+                        android:id="@+id/pMenu_txt2"
+                        android:textColor="@color/personal_text_color"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="客户喜好"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1px"
+                    android:background="#434343"/>
+
+                <RelativeLayout
+                    android:id="@+id/menu_item3"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/personalcenter_icon_update_nor"/>
+                    <TextView
+                        android:id="@+id/pMenu_txt3"
+                        android:textColor="@color/personal_text_color"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/img3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="版本更新"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1px"
+                    android:background="#434343"/>
+                <RelativeLayout
+                    android:id="@+id/menu_item4"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/personalcenter_icon_set_nor"/>
+                    <TextView
+                        android:id="@+id/pMenu_txt4"
+                        android:textColor="@color/personal_text_color"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/img4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="设置"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1px"
+                    android:background="#434343"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/zhuxiao"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/logout_button_shape"
+                android:textColor="@color/white"
+                android:text="注销"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="60dp"
+                android:layout_height="20dp" />
+        </RelativeLayout>
+
+
+        <!--<FrameLayout  这里先注销后期决定用不用fragment
+            android:id="@+id/personal_center_content_fragment"
+            android:layout_weight="0.75"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/personal_center_content_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"></LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

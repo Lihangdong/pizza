@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="270dp"
+    android:background="#99000000">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/login_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#1777e6"
+            android:layout_centerHorizontal="true"
+            android:text="忘记密码"/>
+
+
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="65dp"
+                android:id="@+id/number_txt"
+                android:layout_width="@dimen/login_boxlay_width"
+                android:layout_height="@dimen/login_boxlay_height">
+                <EditText
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/user_pad_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="请输入新密码"
+                    android:gravity="center_vertical"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="#7a7d80"
+                    android:textSize="10sp"
+                    android:background="@drawable/edit_box_selector"/>
+                <ImageView
+                    android:id="@+id/user_pwd_image"
+                    android:layout_width="@dimen/login_imag_box_HeightAndWidth"
+                    android:layout_height="@dimen/login_imag_box_HeightAndWidth"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_login_qrpwd_nor"/>
+
+                <ImageView
+                    android:id="@+id/user_pwd_image_eyes"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="@dimen/login_imag_box_HeightAndWidth"
+                    android:layout_height="@dimen/login_imag_box_HeightAndWidth"
+                    android:background="@drawable/icon_login_eye_nor"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/Yanzheng_number"
+                android:layout_below="@+id/number_txt"
+                android:layout_width="@dimen/login_boxlay_width"
+                android:layout_height="@dimen/login_boxlay_height">
+                <EditText
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/user_pad_txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="请重复输入新密码"
+                    android:gravity="center_vertical"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="#7a7d80"
+                    android:textSize="10sp"
+                    android:background="@drawable/edit_box_selector"/>
+                <ImageView
+                    android:id="@+id/user_pwd_image1"
+                    android:layout_width="@dimen/login_imag_box_HeightAndWidth"
+                    android:layout_height="@dimen/login_imag_box_HeightAndWidth"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_login_qrpwd_nor"/>
+
+                <ImageView
+                    android:id="@+id/user_pwd_image_eyes1"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="@dimen/login_imag_box_HeightAndWidth"
+                    android:layout_height="@dimen/login_imag_box_HeightAndWidth"
+                    android:background="@drawable/icon_login_eye_nor"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/forget_next_sure_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:layout_width="@dimen/login_boxlay_width"
+                android:layout_height="@dimen/login_denglu_button_height"
+                android:textColor="@color/button_unsubmit"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/login_button_blue_shape"
+                android:text="确定"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

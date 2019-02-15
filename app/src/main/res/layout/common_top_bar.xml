@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/homeTopBarBgColor"
+    android:orientation="horizontal">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:background="@drawable/login_logo" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="产品营销助理"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="15sp" />-->
+    <!--</LinearLayout>-->
+    <ImageView
+        android:id="@+id/iv_top_logo"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp" />
+    <View
+        android:layout_width="330dp"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+        android:id="@+id/top_rg_tab"
+        android:layout_width="315dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:background="@drawable/top_tab_click_color"
+            android:button="@null"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/top_tab_text_click_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_aboutus"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/top_tab_click_color"
+            android:button="@null"
+            android:gravity="center"
+            android:text="关于我们"
+            android:textColor="@drawable/top_tab_text_click_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_moduleproduct"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/top_tab_click_color"
+            android:button="@null"
+            android:gravity="center"
+            android:text="模块化产品"
+            android:textColor="@drawable/top_tab_text_click_color"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_hallcase"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/top_tab_click_color"
+            android:button="@null"
+            android:gravity="center"
+            android:text="一厅一案"
+            android:textColor="@drawable/top_tab_text_click_color"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="4dp"
+        android:background="#000000" />
+
+    <RadioButton
+        android:id="@+id/rb_listsaver"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:button="@null"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/nav_icon_list_default" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:background="#000000" />
+
+    <RadioButton
+        android:id="@+id/rb_personalcenter"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:button="@null"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/top_personalcenter_select" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="1dp"
+        android:background="#000000" />
+
+    <RadioButton
+        android:id="@+id/rb_usernme"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/top_tab_click_color"
+        android:textColor="@drawable/top_tab_text_click_color"
+        android:text="朱亚哥"
+        android:button="@null"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#000000" />
+
+    <RadioButton
+        android:id="@+id/rb_setting"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:button="@null"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/top_setting_select" />
+
+</LinearLayout>

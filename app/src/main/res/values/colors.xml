@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- 顶栏按钮默认颜色 -->
+    <color name="topBarTextDefaultColor">#939699</color>
+    <!-- 顶栏按钮按下颜色 -->
+    <color name="topBarTextOnClickColor">#1777e6</color>
+    <!-- 顶栏背景默认颜色 -->
+    <color name="homeTopBarBgColor">#292929</color>
+    <!-- 透明颜色 -->
+    <color name="transparentColor">#00000000</color>
+    <!-- 透明颜色 -->
+    <color name="topBtnBgColor">#00000000</color>
+    <!-- 模块化产品左侧变懒字体正常颜色 -->
+    <color name="left_mkhcp_nor_text_color">#c4c7cc</color>
+    <!-- 模块化产品左侧变懒字体点击颜色 -->
+    <color name="left_mkhcp_sel_text_color">#1777e6</color>
+
+    <color name="black" >#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="login_blue">#0D83CB</color>
+    <color name="menu_blue">#3B3C3D</color>
+    <color name="menu_black">#1A1A1A</color>
+    <color name="menu_selected">#3B3C3D</color>
+    <color name="menu_unselected">#1A1A1A</color>
+    <color name="gray">#343333</color>
+    <color name="about_our_menu_blue">#157DFA</color>
+
+    <color name="button_color">#7a7d80</color>
+    <color name="hintcolor">#7a7d80</color>
+    <color name="button_unsubmit">#939699</color>
+
+
+    <color name="personal_text_color">#c4c8cc</color>
+    <color name="personal_menu_text_color">#1F6ECF</color>
+</resources>

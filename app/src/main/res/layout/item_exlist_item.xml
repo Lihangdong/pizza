@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/albicocca"
+        android:focusable="false"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#cec8cc"
+            android:text="当前版本信息:"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:focusable="false"
+           android:lineSpacingExtra="8dp"
+            android:text="@string/neirong_update"
+            android:textSize="8sp"
+            android:textColor="#939699"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_width="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#cec8cc"
+            android:text="最近更新"/>
+        <TextView
+            android:id="@+id/zuijingengxin"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="#939699"
+            android:text="@string/neirong_update"/>
+    </LinearLayout>
+
+
+</LinearLayout>

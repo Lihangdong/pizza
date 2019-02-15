@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_width="580dp"
+        android:layout_height="360dp">
+
+        <RelativeLayout
+            android:id="@+id/mkh_relative"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/personal_layout_bg_shape"
+            android:padding="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/icon_mkh"
+                android:scaleType="fitXY" />
+
+
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="35dp"
+                android:text="模块化产品"
+                android:background="@drawable/mku_shape"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ytya_relative"
+            android:layout_marginLeft="100dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:background="@drawable/personal_layout_bg_shape">
+
+              <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_ytya"/>
+
+
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="35dp"
+                android:text="一厅一案"
+                android:background="@drawable/mku_shape"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

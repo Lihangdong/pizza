@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">销售助理</string>
+
+    <string name="connect_error">网络连接失败,请检查网络</string>
+    <string name="connect_timeout">连接超时,请稍后再试</string>
+    <string name="bad_network">服务器异常</string>
+    <string name="parse_error">解析服务器响应数据失败</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="response_return_error">服务器返回数据失败</string>
+    <string name="home">首页</string>
+    <string name="aboutus">关于我们</string>
+    <string name="Moduleproduct">模块化产品</string>
+    <string name="hallcase">一厅一案</string>
+    <!--login-->
+    <string name="logo_txt">中智旗讯&amp;华设科技</string>
+    <string name="logo_txt1">智能营业厅解决方案</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="neirong_update">本版被新增加了设计中心功能\n并且修改了相关Bug.\n增强了系统稳定性版本增加了设计中心功能</string>
+    <string name="xitong_update">当前系统版本\nVerson20181220</string>
+
+</resources>

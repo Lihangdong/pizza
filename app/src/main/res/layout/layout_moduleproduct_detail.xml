@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_moduleproduct_detail_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/btn_back_nor" />
+
+        <Button
+            android:id="@+id/btn_moduleproduct_detail_like"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="590dp"
+            android:background="@drawable/view_icon_like_nor" />
+
+        <Button
+            android:id="@+id/btn_moduleproduct_detail_change"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/detail_icon_sgst" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="40dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:background="#313233">
+
+            <LinearLayout
+                android:id="@+id/ll_moduleproduct_detail_description"
+                android:layout_width="290dp"
+                android:layout_height="450dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_type_item_moduleproduct_detail_list_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="内容策划"
+                    android:textColor="#0f5099"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_1"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="智能家电控制、家庭用能监控、用能优化建议、三表集抄、四网融合、国网商城。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_type_item_moduleproduct_detail_list_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="内容策划"
+                    android:textColor="#0f5099"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_2"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="让电力用户在智电客厅与厨房环境中探索各种智能用电体验，并引导客户进入国网商城进行线上购买，实现线上线下一体化。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_type_item_moduleproduct_detail_list_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="内容策划"
+                    android:textColor="#0f5099"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_3"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="通过互动界面可实时控制现场的家电开关，采集电器用电数据；在现场实地体验各种家庭电器。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_type_item_moduleproduct_detail_list_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="内容策划"
+                    android:textColor="#0f5099"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_4"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="通过互动界面可实时控制现场的家电开关，采集电器用电数据；在现场实地体验各种家庭电器。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_5"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="通过互动屏幕切换电视上的媒体内容；了解各种节能电器的能效分析、与传统设备的比较等内容。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_6"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="在互动屏幕上进入国网商城进行浏览体验，进行家电购买。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_item_moduleproduct_detail_list_7"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bluedot" />
+
+                    <TextView
+                        android:id="@+id/tv_content_item_moduleproduct_detail_list_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="在互动屏幕上进入国网商城进行浏览体验，进行家电购买。"
+                        android:textColor="#dce1e6"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_moduleproduct_detail_gird"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="20dp"
+            android:background="#1d1e1f"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_moduleproduct_detail_gird"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="10dp"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarThumbVertical="@drawable/vertical_line"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/tv_moduleproduct_detail_gird"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:text="共10个   注:外观设计已申请专利"
+                android:textColor="#dec1e6"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_moduleproduct_detail_list"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="20dp"
+            android:background="#1d1e1f"
+            android:orientation="vertical">
+
+            <com.huashe.pizz.VMBanner.MVideoView
+                android:id="@+id/mvVideoview"
+                android:layout_width="380dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_moduleproduct_detail_list"
+                android:layout_width="380dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="right"
+                android:text="注：外形设计已申请专利"
+                android:textColor="#dce1e6"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="38dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_left_moduleproduct_detail_bottom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/arrow_left" />
+
+                <HorizontalScrollView
+                    android:layout_width="340dp"
+                    android:layout_height="75dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_moduleproduct_detail_bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/iv_right_moduleproduct_detail_bottom"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/arrow_right" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

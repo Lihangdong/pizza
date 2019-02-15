@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="login_boxlay_height">40dp</dimen>
+    <dimen name="login_boxlay_width">240dp</dimen>
+
+    <dimen name="login_edit_height">40dp</dimen>
+
+    <dimen name="login_imag_box_HeightAndWidth">20dp</dimen>
+    <dimen name="login_denglu_button_height">30dp</dimen>
+
+
+
+</resources>

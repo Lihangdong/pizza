@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0F5099"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="20dp"
+        android:text="个人中心"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="#1D1E1F"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#c4c8cc"
+                android:text="账号"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:text="danny" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="0.1px"
+            android:background="#434343"/>
+
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#c4c8cc"
+                android:text="修改密码"/>
+            <TextView
+                android:layout_toLeftOf="@+id/jiant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:text="已设置"/>
+
+            <ImageView
+                android:id="@+id/jiant"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/jiantou_right" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="0.1px"
+            android:background="#434343"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#c4c8cc"
+                android:text="服务器地址"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:text="http://xxxx.com" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="0.1px"
+            android:background="#434343"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#c4c8cc"
+                android:text="WIFI环境自动下载数据包"/>
+
+            <Switch
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:switchMinWidth="15dp"
+                android:textOff=""
+                android:textOn=""
+                android:thumb="@drawable/thumb_selctor"
+                android:track="@drawable/track_selctor"
+                />
+            <!-- android:thumb="@drawable/thumb_selctor"-->
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="0.1px"
+            android:background="#434343"/>
+    </LinearLayout>
+
+</RelativeLayout>

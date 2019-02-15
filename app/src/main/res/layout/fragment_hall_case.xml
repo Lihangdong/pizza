@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_hall_case"
+    android:background="@drawable/common_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/left_lv_hall_case"
+        android:layout_width="160dp"
+        android:divider="@null"
+        android:layout_height="match_parent">
+    </ListView>
+   <RelativeLayout
+       android:id="@+id/rv_hall_case"
+       android:layout_marginLeft="200dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tv_hall_case_title"
+           android:layout_marginTop="20dp"
+           android:text="智能营业厅"
+           android:layout_width="match_parent"
+           android:layout_height="20dp"
+           android:textSize="18sp"
+           android:textColor="#0f5099"/>
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/right_rv_hall_case"
+           android:layout_marginLeft="10dp"
+           android:scrollbars="vertical"
+           android:scrollbarSize="10dp"
+           android:fadeScrollbars="false"
+           android:scrollbarStyle="outsideInset"
+           android:layout_marginTop="60dp"
+           android:layout_width="695dp"
+           android:layout_height="match_parent">
+       </android.support.v7.widget.RecyclerView>
+   </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.huashe.pizz.QRcodeActivity">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="600dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/homeTopBarBgColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="选择客户信息"
+            android:textColor="#0f5099"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#626466"
+            android:text="客户名称"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_guest_name"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:background="@drawable/et_bg_guest_love"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="90dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#626466"
+            android:text="公司名称"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_company_name"
+            android:layout_width="240dp"
+            android:background="@drawable/et_bg_guest_love"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="90dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="160dp"
+            android:textColor="#626466"
+            android:text="项目名称"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_project_name"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg_guest_love"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="160dp"
+            android:textColor="#626466"
+            android:text="手机号码"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_guest_phone"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/et_bg_guest_love"
+            android:layout_marginLeft="320dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="200dp" />
+
+        <Button
+            android:id="@+id/btn_guest_love_save_save"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="300dp"
+            android:textSize="18sp"
+            android:text="保存"
+            android:background="@color/topBarTextOnClickColor"
+            android:layout_width="60dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btn_guest_love_save_cancle"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="300dp"
+            android:textSize="18sp"
+            android:background="@color/topBarTextDefaultColor"
+            android:text="取消"
+            android:layout_width="60dp"
+            android:layout_height="30dp" /> />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

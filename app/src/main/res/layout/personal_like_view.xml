@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0F5099"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="20dp"
+        android:text="个人中心"/>
+    <RelativeLayout
+        android:layout_alignRight="@+id/like_layout"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="24dp">
+        <EditText
+            android:id="@+id/input_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="25dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:background="@drawable/search_box_shape"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_alignLeft="@+id/input_edt"
+            android:background="@drawable/search"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/like_layout"
+        android:layout_width="680dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#18191a"
+            android:layout_height="30dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="编号"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="保存时间"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="客户"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="公司名称"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="项目名称"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text="手机号码"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#494b4d"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:text=""/>
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/likeList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="#00000000"
+            android:scrollbarSize="90dp"
+            android:scrollbarThumbVertical="@drawable/scrollbar_shape"
+            android:overScrollMode="never">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+    <!--
+    </ScrollView>-->

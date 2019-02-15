@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/item_module_product_rv_bg"
+    android:layout_width="320dp"
+    android:layout_height="250dp">
+
+    <ImageView
+
+        android:id="@+id/iv_moduleproduct_rv_bg"
+        android:layout_width="320dp"
+        android:scaleType="fitXY"
+        android:layout_height="180dp"
+         />
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/iv_moduleproduct_rv_bg"-->
+        <!--android:layout_width="290dp"-->
+        <!--android:layout_height="140dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--fresco:placeholderImage="@drawable/ic_back_white"-->
+        <!--/>-->
+
+    <ImageButton
+        android:id="@+id/ib_moduleproduct_rv_love"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/view_icon_like_nor" />
+
+    <TextView
+        android:id="@+id/tv_moduleproduct_rv_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/tv_moduleproduct_rv_name_bg"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="智能家庭+国网商城"
+        android:textColor="#e6e6e6"
+        android:textSize="15sp" />
+</RelativeLayout>

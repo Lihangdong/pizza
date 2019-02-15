@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_bg"
+    tools:context="com.huashe.pizz.QRcodeActivity">
+
+    <RelativeLayout
+        android:background="@color/homeTopBarBgColor"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="320dp"
+        android:layout_height="360dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="扫码保存我喜欢的产品清单"
+            android:textColor="#0f5099"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_qrcode"
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="48dp"
+            android:background="@drawable/detail_icon_sgst" />
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_qrcode_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="465dp"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/btn_close_nor" />
+</RelativeLayout>

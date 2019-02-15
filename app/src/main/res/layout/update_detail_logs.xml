@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0F5099"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="20dp"
+        android:text="个人中心"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="680dp"
+        android:layout_height="450dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/personal_layout_bg_shape">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="16sp"
+             android:layout_centerVertical="true"
+             android:layout_marginTop="30dp"
+             android:textColor="@color/white"
+             android:text="更新记录"/>
+         <TextView
+             android:id="@+id/back_update_log_tv"
+             android:layout_width="40dp"
+             android:layout_height="20dp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:padding="8dp"
+             android:textSize="12sp"
+             android:textColor="#1776E3"
+             android:background="@drawable/personalcenter_update_btn_return_nor" />
+     </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="620dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="#939699"
+                android:textSize="12sp"
+                android:text="版本号"/>
+            <TextView
+                android:layout_width="1px"
+                android:background="#494b4d"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:textColor="#939699"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="类型"/>
+            <TextView
+                android:layout_width="1px"
+                android:background="#494b4d"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textColor="#939699"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="版本时间"/>
+            <TextView
+                android:layout_width="1dp"
+                android:background="#494b4d"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textColor="#939699"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="更新时间"/>
+            <TextView
+                android:layout_width="1dp"
+                android:background="#494b4d"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textColor="#939699"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text=""/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

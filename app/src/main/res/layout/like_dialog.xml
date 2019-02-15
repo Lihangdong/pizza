@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    android:layout_width="600dp"
+    android:layout_height="460dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="600dp"
+        android:layout_height="460dp"
+        android:background="@drawable/personal_layout_bg_shape"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="360dp">
+            <LinearLayout
+                android:layout_marginLeft="132dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="#0f5099"
+                    android:text="产品"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200dp"
+                    android:gravity="center"
+                    android:textColor="#0f5099"
+                    android:layout_height="40dp"
+                    android:text="简介"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/detail_list"
+                android:listSelector="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/save_button_txt"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:textColor="#ebf0f5"
+                android:gravity="center"
+                android:background="@drawable/ready_submit_button"
+                android:text="重新加载到我喜爱的清单中"
+                android:textSize="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8sp"
+                android:textColor="#939699"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="重新加载后可以继续维护该清单"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/close_likedetail_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/btn_close_nor"/>
+
+</FrameLayout>
+
+

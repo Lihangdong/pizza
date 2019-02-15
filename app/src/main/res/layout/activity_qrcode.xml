@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huashe.pizz.QRcodeActivity">
+
+    <LinearLayout
+        android:background="@color/topBarTextDefaultColor"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_height="360dp" >
+        <TextView
+            android:text="扫码保存我喜欢的产品清单"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0f5099"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/iv_qrcode"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="225dp"
+            android:layout_height="225dp" />
+        <ImageButton
+            android:id="@+id/ib_qrcode_close"
+            android:background="@drawable/btn_close_nor"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="145dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</RelativeLayout>
